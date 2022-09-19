@@ -72,7 +72,7 @@ while iniciar_trivia == True:
             YELLOW + '\nSu ámbito es tan amplio que cuenta con al menos seis subespecialidades' + RESET
         )
 
-    time.sleep(5)
+    time.sleep(1)
     print( BLACK +'\nTu puntaje actual es: ', puntaje, RESET)
 
     # Pregunta 2
@@ -103,7 +103,7 @@ while iniciar_trivia == True:
         '\nEl VIH es el virus que causa el SIDA y es de rápida propagación en las relaciones sexuales.' + RESET
     )
 
-    time.sleep(5)
+    time.sleep(1)
     print( BLACK +'\nTu puntaje actual es: ', puntaje, RESET)
 
     # Pregunta 3
@@ -134,7 +134,7 @@ while iniciar_trivia == True:
         '\nLas personas que ingieren alcohol están más expuestas a esta afección.' + RESET
     )
 
-    time.sleep(5)
+    time.sleep(1)
     print( BLACK +'\nTu puntaje actual es: ', puntaje, RESET)
 
     # Pregunta 4
@@ -163,7 +163,7 @@ while iniciar_trivia == True:
 
     print( YELLOW + '\nLos analgésicos son recetados para combatir el dolor.' + RESET)
 
-    time.sleep(5)
+    time.sleep(1)
     print( BLACK +'\nTu puntaje actual es: ', puntaje, RESET)
 
     # Pregunta 5
@@ -192,7 +192,7 @@ while iniciar_trivia == True:
         '\nBazo se refiere a un órgano. Su parónimo es vaso (términos con escritura similar y diferentes significados).' + RESET
     )
 
-    time.sleep(5)
+    time.sleep(1)
 
     if puntaje <= 80:
         print(BLACK + '\nMuy bien, obtuviste ', puntaje,
